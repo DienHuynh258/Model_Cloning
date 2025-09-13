@@ -3,8 +3,6 @@
 
 A fine-tuning pipeline for training a Vietnamese speech synthesis model using the F5-TTS architecture.
 
-Try demo at: https://huggingface.co/spaces/hynt/F5-TTS-Vietnamese-100h
-
 ## Tips for training
 - 100 hours of data is generally sufficient to train a Vietnamese Text-to-Speech model for specific voices. However, to achieve optimal performance in voice cloning across a wide range of speakers, a larger dataset is recommended. I fine-tuned an F5-TTS model on approximately 1000 hours of data, which resulted in excellent voice cloning performance.
 - Having a large amount of speaker hours with highly accurate transcriptions is crucial — the more, the better. This helps the model generalize better to unseen speakers, resulting in lower WER after training and reducing hallucinations.
